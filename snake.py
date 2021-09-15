@@ -66,8 +66,8 @@ def goleft():
 def goright():
     so.right(30)
 
-window.onkeypress(goright,'Right')
-window.onkeypress(goleft,'Left')
+window.onkey(goright,'Right')
+window.onkey(goleft,'Left')
 window.listen()
 
 counter = 0
